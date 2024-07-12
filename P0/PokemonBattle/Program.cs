@@ -1,4 +1,11 @@
-﻿
+﻿/*
+Player will have a team of pokemon to battle the computer. 
+Player will be able to select their starter and the computer will choose a pokemon to battle it.
+Player can either Attack, Heal, or Defend.
+All pokemon have a weakness and a resistance which either strengthens or weakens the attack.
+After a win, the pokemon gains experience and grows in level, becoming stronger.
+Once all the opponent's pokemon are defeated, the player wins!
+*/
 class Program
 {
 
