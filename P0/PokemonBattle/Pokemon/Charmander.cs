@@ -13,6 +13,7 @@ public class Charmander: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Charmander used Flamethrower!");
+        Console.WriteLine("🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥");
         return 5 * lvl;
     }
 

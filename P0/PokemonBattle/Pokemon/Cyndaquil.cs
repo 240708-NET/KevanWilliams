@@ -13,6 +13,7 @@ public class Cyndaquil: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Cyndaquil used Ember!");
+        Console.WriteLine("🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥");
         return 5 * lvl;
     }
 

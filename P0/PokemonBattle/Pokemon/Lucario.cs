@@ -13,6 +13,7 @@ public class Lucario: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Lucario used Double Kick!");
+        Console.WriteLine("👊👊👊👊👊👊👊👊👊👊👊👊👊👊👊");
         return 5 * lvl;
     }
 

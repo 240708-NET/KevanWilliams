@@ -13,6 +13,7 @@ public class Bulbasaur: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Bulbasaur used Razor Leaf!");
+        Console.WriteLine("🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃");
         return 5 * lvl;
     }
 

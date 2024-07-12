@@ -1,6 +1,6 @@
-public class Sneasel : Pokemon
+public class Umbreon : Pokemon
 {
-    public override string name { get; } = "Sneasel";
+    public override string name { get; } = "Umbreon";
     public override string type { get; } = "Dark";
 
     public override string weakness { get; } = "Fighting";
@@ -8,12 +8,13 @@ public class Sneasel : Pokemon
 
 
      public override double Attack(){
-        Console.WriteLine("Sneasel used Crunch!");
+        Console.WriteLine("Umbreon used Curse!");
+        Console.WriteLine("😈😈😈😈😈😈😈😈😈😈😈😈😈");
         return 5 * lvl;
     }
 
      public override double Heal(){
-        Console.WriteLine("Sneasel ate a berry!");
+        Console.WriteLine("Umbreon ate a berry!");
         return 3 * lvl;
     }
 

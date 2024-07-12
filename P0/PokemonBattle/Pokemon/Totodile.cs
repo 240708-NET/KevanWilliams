@@ -10,6 +10,7 @@ public class Totodile : Pokemon
 
      public override double Attack(){
         Console.WriteLine("Totodile used Bubble!");
+        Console.WriteLine("🫧🫧🫧🫧🫧🫧🫧🫧🫧🫧🫧🫧🫧");
         return 5 * lvl;
     }
 

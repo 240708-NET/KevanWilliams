@@ -13,6 +13,7 @@ public class Mewtwo: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Mewtwo used Psychic!");
+        Console.WriteLine("🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿");
         return 5 * lvl;
     }
 

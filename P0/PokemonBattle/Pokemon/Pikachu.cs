@@ -9,6 +9,7 @@ public class Pikachu : Pokemon
 
      public override double Attack(){
         Console.WriteLine("Pikachu used Thundershock!");
+        Console.WriteLine("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         return 5 * lvl;
     }
 

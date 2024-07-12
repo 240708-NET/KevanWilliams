@@ -1,4 +1,6 @@
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
 public abstract class Pokemon {
 
     public int lvl {get; set;} = 3;

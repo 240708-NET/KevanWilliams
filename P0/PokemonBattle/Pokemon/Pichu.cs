@@ -9,6 +9,7 @@ public class Pichu : Pokemon
 
      public override double Attack(){
         Console.WriteLine("Pichu used Thunderbolt!");
+        Console.WriteLine("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         return 5 * lvl;
     }
 

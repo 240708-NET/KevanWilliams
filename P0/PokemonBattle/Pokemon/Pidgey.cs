@@ -13,6 +13,7 @@ public class Pidgey: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Pidgey used Gust!");
+        Console.WriteLine("🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️🌪️");
         return 5 * lvl;
     }
 

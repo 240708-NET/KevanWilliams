@@ -13,6 +13,7 @@ public class Chikorita: Pokemon {
 
     public override double Attack(){
         Console.WriteLine("Chikorita used Vine Whip!");
+        Console.WriteLine("🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱");
         return 5 * lvl;
     }
 

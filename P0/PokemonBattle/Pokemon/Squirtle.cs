@@ -10,6 +10,7 @@ public class Squirtle : Pokemon
 
      public override double Attack(){
         Console.WriteLine("Squirtle used Water Gun!");
+        Console.WriteLine("💧💧💧💧💧💧💧💧💧💧💧💧💧💧💧");
         return 5 * lvl;
     }
 
