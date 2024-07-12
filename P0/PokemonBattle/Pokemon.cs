@@ -7,17 +7,21 @@ public abstract class Pokemon {
     public abstract string name { get; }
     public abstract string type { get; }
 
+    public abstract string weakness {get;}
+
+    public abstract string resistance {get;}
+
+
+
 
 
     
 
-    public abstract int Attack();
+    public abstract double Attack();
 
-    public virtual void Heal(){
-        Console.WriteLine("Pokemon healed!");
-    }
+    public abstract double Heal();
 
-    public virtual void Defend(){
+    public void Defend(){
         Console.WriteLine("Pokemon defended!");
     }
     
