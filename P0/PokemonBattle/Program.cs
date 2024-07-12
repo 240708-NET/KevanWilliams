@@ -154,6 +154,9 @@ class Program
                     {
                         int compMove = rand.Next(1, 4);
                         ExecuteMove(compMove, compPokemon, selectedPokemon, ref compDefense, ref userDefense, ref compWins, ref userWins, compOptions, remaining, compChoice);
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+                        Console.WriteLine("");
                     }
                 }
                 else
@@ -163,6 +166,9 @@ class Program
                     if (selectedPokemon.hp > 0)
                     {
                         ExecuteMove(moveChoice, selectedPokemon, compPokemon, ref userDefense, ref compDefense, ref userWins, ref compWins, userOptions, remaining, compChoice);
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+                        Console.WriteLine("");
                     }
                 }
             }
