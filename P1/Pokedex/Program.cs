@@ -4,7 +4,7 @@ using System.Linq;
 using Pokedex.Repo; // Ensure this is the correct namespace for PokemonContext and Repositories
 using Pokedex.Models; // Ensure this is the correct namespace for the Pokemon model
 
-/* class Program
+class Program
 {
     static void Main(string[] args)
     {
@@ -318,10 +318,10 @@ using Pokedex.Models; // Ensure this is the correct namespace for the Pokemon mo
     }
 }
 }
-    */
+   
 
 
-    class Program
+ /*    class Program
 {
     static void Main(string[] args)
     {
@@ -379,4 +379,4 @@ using Pokedex.Models; // Ensure this is the correct namespace for the Pokemon mo
             // Other operations (e.g., playerRepository)...
         }
     }
-}
+} */
