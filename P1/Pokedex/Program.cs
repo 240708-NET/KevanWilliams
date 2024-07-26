@@ -4,7 +4,7 @@ using System.Linq;
 using Pokedex.Repo; // Ensure this is the correct namespace for PokemonContext and Repositories
 using Pokedex.Models; // Ensure this is the correct namespace for the Pokemon model
 
-class Program
+/* class Program
 {
     static void Main(string[] args)
     {
@@ -23,8 +23,11 @@ class Program
                 var allPlayerPokemons = playerRepository.GetAll().ToList();
                 var allComputerPokemons = computerRepository.GetAll().ToList();
 
+                int playerLvlTotal = 0;
+
                 foreach (var pokemon in allPlayerPokemons)
                 {
+                    playerLvlTotal += pokemon.lvl;
                     pokemon.hp = pokemon.maxHp;
                     playerRepository.Update(pokemon);
                 }
@@ -32,6 +35,7 @@ class Program
                 foreach (var pokemon in allComputerPokemons)
                 {
                     pokemon.hp = pokemon.maxHp;
+                    pokemon.lvl = (int) (playerLvlTotal/6);
                     computerRepository.Update(pokemon);
                 }
 
@@ -314,4 +318,65 @@ class Program
     }
 }
 }
-   
+    */
+
+
+    class Program
+{
+    static void Main(string[] args)
+    {
+        using (var context = new PokemonContext())
+        {
+            // Ensure database is created
+            context.Database.EnsureCreated();
+
+            var playerRepository = new PlayerPokemonRepository(context);
+            var computerRepository = new ComputerPokemonRepository(context);
+
+            // Read and add Computer Pokémon from the text file
+            string filePath = "computer_pokemons.txt"; // Make sure this path is correct
+
+            if (File.Exists(filePath))
+            {
+                var lines = File.ReadAllLines(filePath);
+                foreach (var line in lines)
+                {
+                    var parts = line.Split(',');
+                    if (parts.Length == 8)
+                    {
+                        var pokemon = new ComputerPokemon
+                        {
+                            name = parts[0],
+                            type = parts[1],
+                            lvl = int.Parse(parts[2]),
+                            maxHp = int.Parse(parts[3]),
+                            hp = int.Parse(parts[4]),
+                            weakness = parts[5],
+                            resistance = parts[6],
+                            special = parts[7]
+                        };
+                        computerRepository.Add(pokemon);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Skipping invalid line: {line}");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("The file does not exist.");
+            }
+
+            // List all Computer Pokémon
+            var computerPokemons = computerRepository.GetAll();
+            Console.WriteLine("Computer Pokémon:");
+            foreach (var pokemon in computerPokemons)
+            {
+                Console.WriteLine($"{pokemon.name} ({pokemon.type}) - Level: {pokemon.lvl}, HP: {pokemon.hp}, Special: {pokemon.special}");
+            }
+
+            // Other operations (e.g., playerRepository)...
+        }
+    }
+}

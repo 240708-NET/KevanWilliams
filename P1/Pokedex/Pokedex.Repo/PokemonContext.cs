@@ -11,7 +11,7 @@ public class PokemonContext : DbContext
 
      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string ConnectionString = File.ReadAllText("./connectionstring");
+            string ConnectionString = File.ReadAllText("./connectionstring.txt");
             optionsBuilder.UseSqlServer(ConnectionString);
         }
 
