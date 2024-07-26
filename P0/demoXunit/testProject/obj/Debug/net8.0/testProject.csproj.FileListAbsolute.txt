@@ -1,0 +1,15 @@
+/Volumes/Elements/Revature/P0/demoXunit/testProject/bin/Debug/net8.0/testProject
+/Volumes/Elements/Revature/P0/demoXunit/testProject/bin/Debug/net8.0/testProject.deps.json
+/Volumes/Elements/Revature/P0/demoXunit/testProject/bin/Debug/net8.0/testProject.runtimeconfig.json
+/Volumes/Elements/Revature/P0/demoXunit/testProject/bin/Debug/net8.0/testProject.dll
+/Volumes/Elements/Revature/P0/demoXunit/testProject/bin/Debug/net8.0/testProject.pdb
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.AssemblyInfoInputs.cache
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.AssemblyInfo.cs
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.csproj.CoreCompileInputs.cache
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.sourcelink.json
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.dll
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/refint/testProject.dll
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.pdb
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/testProject.genruntimeconfig.cache
+/Volumes/Elements/Revature/P0/demoXunit/testProject/obj/Debug/net8.0/ref/testProject.dll

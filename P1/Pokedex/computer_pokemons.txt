@@ -1,0 +1,100 @@
+Chikorita,Grass,5,100,100,Fire,Water,Razor Leaf
+Bayleef,Grass,5,100,100,Fire,Water,Magical Leaf
+Meganium,Grass,5,100,100,Fire,Water,Petal Dance
+Cyndaquil,Fire,5,100,100,Water,Grass,Flamethrower
+Quilava,Fire,5,100,100,Water,Grass,Flame Wheel
+Typhlosion,Fire,5,100,100,Water,Grass,Eruption
+Totodile,Water,5,100,100,Electric,Fire,Water Gun
+Croconaw,Water,5,100,100,Electric,Fire,Hydro Pump
+Feraligatr,Water,5,100,100,Electric,Fire,Surf
+Sentret,Normal,5,100,100,Fighting,Ghost,Quick Attack
+Furret,Normal,5,100,100,Fighting,Ghost,Slam
+Hoothoot,Flying,5,100,100,Electric,Ground,Peck
+Noctowl,Flying,5,100,100,Electric,Ground,Air Slash
+Ledyba,Bug,5,100,100,Electric,Fighting,Comet Punch
+Ledian,Bug,5,100,100,Electric,Fighting,Silver Wind
+Spinarak,Bug,5,100,100,Fire,Fighting,Poison Sting
+Ariados,Bug,5,100,100,Fire,Fighting,Signal Beam
+Crobat,Poison,5,100,100,Electric,Fighting,Cross Poison
+Chinchou,Water,5,100,100,Grass,Steel,Spark
+Lanturn,Water,5,100,100,Grass,Steel,Thunderbolt
+Pichu,Electric,5,100,100,Ground,Flying,Thunder Shock
+Cleffa,Fairy,5,100,100,Steel,Dragon,Magical Leaf
+Igglybuff,Fairy,5,100,100,Steel,Dragon,Pound
+Togepi,Fairy,5,100,100,Steel,Dragon,Metronome
+Togetic,Flying,5,100,100,Electric,Ground,Dazzling Gleam
+Natu,Psychic,5,100,100,Electric,Fighting,Peck
+Xatu,Psychic,5,100,100,Electric,Fighting,Psychic
+Mareep,Electric,5,100,100,Ground,Flying,Thunder Shock
+Flaaffy,Electric,5,100,100,Ground,Flying,Thunder Wave
+Ampharos,Electric,5,100,100,Ground,Flying,Thunder Punch
+Bellossom,Grass,5,100,100,Fire,Water,Petal Blizzard
+Marill,Water,5,100,100,Electric,Fire,Aqua Tail
+Azumarill,Water,5,100,100,Electric,Fire,Play Rough
+Sudowoodo,Rock,5,100,100,Water,Electric,Rock Throw
+Politoed,Water,5,100,100,Electric,Fire,Hydro Pump
+Hoppip,Grass,5,100,100,Fire,Ground,Splash
+Skiploom,Grass,5,100,100,Fire,Ground,Leech Seed
+Jumpluff,Grass,5,100,100,Fire,Ground,Giga Drain
+Aipom,Normal,5,100,100,Fighting,Ghost,Scratch
+Sunkern,Grass,5,100,100,Fire,Water,Absorb
+Sunflora,Grass,5,100,100,Fire,Water,Petal Dance
+Yanma,Bug,5,100,100,Electric,Fighting,Air Slash
+Wooper,Water,5,100,100,Grass,Electric,Mud Shot
+Quagsire,Water,5,100,100,Grass,Electric,Mud Bomb
+Espeon,Psychic,5,100,100,Bug,Fighting,Psychic
+Umbreon,Dark,5,100,100,Fairy,Psychic,Dark Pulse
+Murkrow,Dark,5,100,100,Electric,Ground,Peck
+Slowking,Water,5,100,100,Electric,Fighting,Psychic
+Misdreavus,Ghost,5,100,100,Dark,Normal,Shadow Ball
+Unown,Psychic,5,100,100,Dark,Fighting,Hidden Power
+Wobbuffet,Psychic,5,100,100,Dark,Fighting,Counter
+Girafarig,Normal,5,100,100,Dark,Ghost,Psychic
+Pineco,Bug,5,100,100,Fire,Fighting,Self-Destruct
+Forretress,Bug,5,100,100,Fire,Normal,Explosion
+Dunsparce,Normal,5,100,100,Fighting,Ghost,Drill Run
+Gligar,Ground,5,100,100,Water,Electric,Fury Cutter
+Steelix,Steel,5,100,100,Water,Flying,Iron Tail
+Snubbull,Fairy,5,100,100,Steel,Dragon,Play Rough
+Granbull,Fairy,5,100,100,Steel,Dragon,Crunch
+Qwilfish,Water,5,100,100,Electric,Fighting,Poison Jab
+Scizor,Bug,5,100,100,Fire,Fairy,Bullet Punch
+Shuckle,Bug,5,100,100,Water,Steel,Rock Throw
+Heracross,Bug,5,100,100,Flying,Grass,Megahorn
+Sneasel,Ice,5,100,100,Fighting,Psychic,Ice Punch
+Teddiursa,Normal,5,100,100,Fighting,Ghost,Fury Swipes
+Ursaring,Normal,5,100,100,Fighting,Ghost,Slash
+Slugma,Fire,5,100,100,Water,Grass,Ember
+Magcargo,Fire,5,100,100,Water,Grass,Flame Burst
+Swinub,Ice,5,100,100,Fire,Water,Ice Shard
+Piloswine,Ice,5,100,100,Fire,Water,Ice Fang
+Corsola,Water,5,100,100,Electric,Fire,Bubble Beam
+Remoraid,Water,5,100,100,Electric,Fire,Water Gun
+Octillery,Water,5,100,100,Electric,Fire,Octazooka
+Delibird,Ice,5,100,100,Fire,Flying,Present
+Mantine,Water,5,100,100,Electric,Fire,Water Pulse
+Skarmory,Steel,5,100,100,Fire,Ground,Steel Wing
+Houndour,Fire,5,100,100,Water,Grass,Ember
+Houndoom,Fire,5,100,100,Water,Grass,Flamethrower
+Kingdra,Water,5,100,100,Electric,Fire,Hydro Pump
+Phanpy,Ground,5,100,100,Water,Electric,Rollout
+Donphan,Ground,5,100,100,Water,Electric,Earthquake
+Porygon2,Normal,5,100,100,Fighting,Ghost,Tri Attack
+Stantler,Normal,5,100,100,Fighting,Ghost,Stomp
+Smeargle,Normal,5,100,100,Fighting,Ghost,Sketch
+Tyrogue,Fighting,5,100,100,Flying,Psychic,Tackle
+Hitmontop,Fighting,5,100,100,Flying,Psychic,Triple Kick
+Smoochum,Ice,5,100,100,Fire,Water,Ice Punch
+Elekid,Electric,5,100,100,Ground,Flying,Thunder Punch
+Magby,Fire,5,100,100,Water,Grass,Fire Punch
+Miltank,Normal,5,100,100,Fighting,Ghost,Body Slam
+Blissey,Normal,5,100,100,Fighting,Ghost,Soft-Boiled
+Raikou,Electric,5,100,100,Ground,Flying,Thunder
+Entei,Fire,5,100,100,Water,Grass,Fire Spin
+Suicune,Water,5,100,100,Electric,Fire,Aurora Beam
+Larvitar,Rock,5,100,100,Water,Electric,Bite
+Pupitar,Rock,5,100,100,Water,Electric,Rock Slide
+Tyranitar,Rock,5,100,100,Water,Electric,Stone Edge
+Lugia,Psychic,5,100,100,Dark,Fighting,Aeroblast
+Ho-oh,Fire,5,100,100,Water,Grass,Sacred Fire
+Celebi,Grass,5,100,100,Fire,Water,Leaf Storm
